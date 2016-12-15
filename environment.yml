@@ -1,16 +1,8 @@
 name: avo-explorer
 
 dependencies:
-- ipykernel=4.5.0=py35_0
-- ipython=5.1.0=py35_0
-- ipython_genutils=0.1.0=py35_0
-- ipywidgets=5.2.2=py35_0
-- jupyter=1.0.0=py35_3
-- jupyter_client=4.4.0=py35_0
-- jupyter_console=5.0.0=py35_0
-- jupyter_core=4.2.0=py35_0
-- matplotlib=1.5.1=np111py35_0
-- numpy=1.11.1=py35_1
-- python=3.5.2=0
+- matplotlib
+- numpy
+- python=3.5.2
 - pip:
-  - bruges==0.2.1
+  - bruges
