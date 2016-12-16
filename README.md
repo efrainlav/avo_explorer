@@ -19,10 +19,11 @@ The first thing you'll see after you click on the _Launch Binder_ button is this
 <img src=avo_explorer_fig0.png width=300>
 
 
-
 **START qui sotto markdown**
 
-![](avo_explorer_fig0.png | width=300)
+![fig0](avo_explorer_fig0.png | width=300)
+
+![fig0](avo_explorer_fig0.png){:height="400px" width="400px"}.
 
 ** END **
 
