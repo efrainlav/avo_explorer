@@ -1,4 +1,14 @@
-<h1>AVO Explorer</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AVO Explorer</title>
+<link href="https://aadm.github.io/avo_explorer/assets/css/style.css?v=125c6fcf3399632f2bc569ed5931ebbce3b990a4" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<h1 id="avo-explorer">AVO Explorer</h1>
 
 
 Interactive tool to explore AVO classes.
@@ -19,11 +29,7 @@ The first thing you’ll see after you click on the <em>Launch Binder</em> butto
 
 <img src="avo_explorer_fig0.png" width=300>
 
-
-
 Click on the <code class="highlighter-rouge">avo_explorer_v2.ipynb</code> to start the notebook.
-
-
 
 Now From the menubar select <em>Cell/Run All</em> to have everything ready to run; to clean up the window and make more space, select <em>View/Toggle Header</em> and <em>View/Toggle Toolbar</em>.
 
@@ -31,6 +37,7 @@ The first interesting cell you will see is this one:
 
 <img src="avo_explorer_fig1.png" width=600>
 
+    
 The plot with the AVO classes is the output of the function <code class="highlighter-rouge">make_avoclasses()</code>. There’s not much to it really, just a reminder what AVO is all about.
 
 Let’s scroll down until you get to to the <strong>Interactive AVO explorer</strong>:
@@ -48,3 +55,7 @@ Scroll further down to play with the <strong>Interactive AVO classes explorer</s
 This is generated with the function <code class="highlighter-rouge">avomod2</code> and can be used to inspect predefined configurations of shale/sand scenarios that represent the classic four AVO classes; what you can also do is choose the fluid content of the lower (sandy) layer and also modify its porosity with the slider <code class="highlighter-rouge">phimod</code> which allows to add or subtract up to 0.1 p.u. from the starting point (indicated in the text between the sliders and the plots).
 
 If it doesn’t work for you, too bad! I’ve created this only as a demo for some of my colleagues and release it for the rest of the world with no promises that it will work for you too. If you think there’s something to be fixed or missing go to the <a href="https://github.com/aadm/avo_explorer">original github repo</a>, make your changes and then share it back.
+
+</div>
+</body>
+</html>
