@@ -18,6 +18,15 @@ The first thing you'll see after you click on the _Launch Binder_ button is this
 
 <img src=avo_explorer_fig0.png width=300>
 
+
+**START qui sotto markdown**
+
+![](avo_explorer_fig0.png | width=300)
+
+** END **
+
+
+
 Click on the `avo_explorer_v2.ipynb` to start the notebook.
 
 Now From the menubar select _Cell/Run All_ to have everything ready to run; to clean up the window and make more space, select _View/Toggle Header_ and _View/Toggle Toolbar_.
