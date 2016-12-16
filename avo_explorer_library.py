@@ -50,7 +50,7 @@ def make_avoclasses(brine=False):
     ax[1].text(-.35,-.3,'Class 3',ha='center',va='center', color='r',style='italic')
     ax[1].text(-.35,.15,'Class 4',ha='center',va='center', color='g',style='italic')
 
-def avomod1(vp1=2192,vs1=818,rho1=2.16,vp2=1542,vs2=901,rho2=1.88,angmin=0,angmax=30,polarity='normal',black='False',method='shuey'):
+def avomod1(vp1=2192,vs1=818,rho1=2.16,vp2=1542,vs2=901,rho2=1.88,angmin=0,angmax=30,polarity='normal',black=False,method='shuey'):
     n_samples = 500
     gain=10
     interface=int(n_samples/2)
