@@ -12,13 +12,11 @@ To launch the interactive notebook click this button:
 
 If you need a more complete introduction to Jupyter notebooks, see [here](http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb).
 
-Otherwise, follow these instructions:
-
-
+Otherwise, read on.
 
 The first thing you'll see after you click on the _Launch Binder_ button is this window, a sort of file manager to open notebook documents, text file etc (it's called the _Notebook Dashboard_):
 
-<img src=avo_explorer_fig0.png width=500>
+<img src=avo_explorer_fig0.png width=400>
 
 Click on the `avo_explorer_v2.ipynb` to start the notebook.
 
@@ -28,12 +26,15 @@ The first interesting cell you will see is this one:
 
 <img src=avo_explorer_fig1.png width=800>
 
-The plot with the AVO classes is the output of the function `make_avoclasses()`. There's not much to it really, just a reminder what AVO is all about. Let's scroll down until you get to to the **Interactive AVO explorer**:
+The plot with the AVO classes is the output of the function `make_avoclasses()`. There's not much to it really, just a reminder what AVO is all about.
+
+Let's scroll down until you get to to the **Interactive AVO explorer**:
 
 <img src=avo_explorer_fig2.png width=800>
 
-This is the output of the function `avomod1` made interactive through [Jupyter's magic](http://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html). It computes the AVO response along an interface between two layers. Each media is characterised by its elastic properties (P-wave, S-wave and density); the upper layer is specified by `vp1`, `vs1`, `rho1`, the lower by `vp2`, `vs2`, `rho2`. Play with the sliders to change the elastic properties of the two layers and see the resulting `AI` (acoustic impedance, `vp*rho`) and `Vp/Vs` curves, the AVO curve, a synthetic seismic gather and the AVO response on the Intercept/Gradient crossplot. You can also change the equation to be used (Zoeppritz or Shuey 2-term), the maximum angle of incidence, polarity of the data and finally to have the gather displayed in black (activating the checkbox) or in red/blue colors.
+This is the output of the function `avomod1` made interactive through [Jupyter's magic](http://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html). It computes the AVO response along an interface between two layers. Each media is characterised by its elastic properties (P-wave, S-wave and density); the upper layer is specified by `vp1`, `vs1`, `rho1`, the lower by `vp2`, `vs2`, `rho2`.
 
+Play with the sliders to change the elastic properties of the two layers and see the resulting `AI` (acoustic impedance, `vp*rho`) and `Vp/Vs` curves, the AVO curve, a synthetic seismic gather and the AVO response on the Intercept/Gradient crossplot. You can also change the equation to be used (Zoeppritz or Shuey 2-term), the maximum angle of incidence, polarity of the data and finally to have the gather displayed in black (activating the checkbox) or in red/blue colors.
 
 Scroll further down to play with the **Interactive AVO classes explorer**:
 
