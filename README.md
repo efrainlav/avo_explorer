@@ -18,6 +18,7 @@ The first thing you'll see after you click on the _Launch Binder_ button is this
 
 ![avo_explorer_fig0.png](avo_explorer_fig0.png)
 
+<img src=avo_explorer_fig0.png width=300>
 
 Click on the `avo_explorer_v2.ipynb` to start the notebook.
 
@@ -25,14 +26,13 @@ Now From the menubar select _Cell/Run All_ to have everything ready to run; to c
 
 The first interesting cell you will see is this one:
 
-![avo_explorer_fig1.png](avo_explorer_fig1.png)
-
+<img src=avo_explorer_fig1.png width=600>
 
 The plot with the AVO classes is the output of the function `make_avoclasses()`. There's not much to it really, just a reminder what AVO is all about.
 
 Let's scroll down until you get to to the **Interactive AVO explorer**:
 
-![avo_explorer_fig2.png](avo_explorer_fig2.png)
+<img src=avo_explorer_fig2.png width=600>
 
 This is the output of the function `avomod1` made interactive through [Jupyter's magic](http://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html). It computes the AVO response along an interface between two layers. Each media is characterised by its elastic properties (P-wave, S-wave and density); the upper layer is specified by `vp1`, `vs1`, `rho1`, the lower by `vp2`, `vs2`, `rho2`.
 
@@ -40,7 +40,7 @@ Play with the sliders to change the elastic properties of the two layers and see
 
 Scroll further down to play with the **Interactive AVO classes explorer**:
 
-![avo_explorer_fig3.png](avo_explorer_fig3.png)
+<img src=avo_explorer_fig3.png width=600>
 
 This is generated with the function `avomod2` and can be used to inspect predefined configurations of shale/sand scenarios that represent the classic four AVO classes; what you can also do is choose the fluid content of the lower (sandy) layer and also modify its porosity with the slider `phimod` which allows to add or subtract up to 0.1 p.u. from the starting point (indicated in the text between the sliders and the plots).
 
