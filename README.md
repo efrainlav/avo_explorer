@@ -16,7 +16,9 @@ Otherwise, read on.
 
 The first thing you'll see after you click on the _Launch Binder_ button is this window, a sort of file manager to open notebook documents, text file etc (it's called the _Notebook Dashboard_):
 
-<img src=avo_explorer_fig0.png width=400>
+<img src='avo_explorer_fig0.png' width=400>
+![avo_explorer_fig0.png](avo_explorer_fig0.png){:width=400}.
+
 
 Click on the `avo_explorer_v2.ipynb` to start the notebook.
 
